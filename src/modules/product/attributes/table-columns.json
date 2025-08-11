@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Id",
+    "dataIndex": "id"
+  },
+  {
+    "title": "Internal Name",
+    "dataIndex": "internalName"
+  },
+  {
+    "title": "External Name",
+    "dataIndex": "externalName"
+  },
+  {
+    "title": "Description",
+    "dataIndex": "description",
+    "width": 500
+  },
+  {
+    "title": "Type",
+    "dataIndex": "type"
+  }
+]

@@ -1,0 +1,83 @@
+@use './_variables' as *;
+
+* {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Define scrollbar width and color */
+::-webkit-scrollbar {
+  width: 4px; // Adjust width as needed
+  // display: none; // Hide scrollbar by default
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+  background: #fafafa; // color of the track
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+  background: #888; // color of the handle
+  border-radius: 5px; // roundness of the handle
+}
+
+input,
+select,
+textarea {
+  color: $neutrals-700 !important;
+}
+
+::placeholder {
+  color: $neutrals-500 !important;
+}
+
+::-ms-input-placeholder {
+  color: $neutrals-500 !important;
+}
+
+.ant-select-item-option-content {
+  color: black !important;
+}
+.ant-select-item.ant-select-item-option {
+  background-color: transparent !important;
+}
+.ant-select-item.ant-select-item-option-active {
+  background-color: $neutrals-100 !important;
+}
+
+// antd date picker responsive
+
+.ant-picker-panel {
+  &:last-child {
+    width: 0;
+    .ant-picker-header {
+      position: absolute;
+      right: 0;
+      .ant-picker-header-prev-btn,
+      .ant-picker-header-view {
+        visibility: hidden;
+      }
+    }
+
+    .ant-picker-body {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      width: 268px !important;
+      .ant-picker-header {
+        position: relative;
+        .ant-picker-header-prev-btn,
+        .ant-picker-header-view {
+          visibility: initial;
+        }
+      }
+
+      .ant-picker-body {
+        display: block;
+      }
+    }
+  }
+}

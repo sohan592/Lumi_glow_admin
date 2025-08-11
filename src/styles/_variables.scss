@@ -1,0 +1,218 @@
+:root {
+  // Primary
+  --primary: #2d2e54;
+  --primary-100: #e3e4f0;
+  --primary-200: #c8c9e1;
+  --primary-300: #acadd3;
+  --primary-400: #9192c4;
+  --primary-500: #7577b5;
+  --primary-600: #5a5ca6;
+  --primary-700: #4b4c8b;
+  --primary-800: #3c3d70;
+  --primary-900: #242543;
+  --primary-1000: #1b1c32;
+
+  // Secondary
+  --secondary: #f15a3a;
+  --secondary-100: #fde4de;
+  --secondary-200: #fac8bd;
+  --secondary-300: #f8ad9d;
+  --secondary-400: #f6917c;
+  --secondary-500: #f3755b;
+  --secondary-600: #ee3b16;
+  --secondary-700: #ce300f;
+  --secondary-800: #aa280c;
+  --secondary-900: #851f09;
+  --secondary-1000: #611707;
+
+  // Neutrals
+  --white: #ffffff;
+  --base-white: #fafafa;
+  --neutrals-100: #e3e3e3;
+  --neutrals-200: #cccbcb;
+  --neutrals-300: #b5b3b3;
+  --neutrals-400: #9f9c9c;
+  --neutrals-500: #898384;
+  --neutrals-600: #726c6c;
+  --neutrals-700: #5a5555;
+  --neutrals-800: #433e3f;
+  --neutrals-900: #2b2829;
+  --neutrals-1000: #151314;
+  --base-black: #0a0a0b;
+  --black: #000000;
+
+  // Success
+  --success: #22c55e;
+  --success-100: #b0f1c8;
+  --success-200: #60e491;
+  --success-300: #188b42;
+
+  // Warning
+  --warning: #eabb08;
+  --warning-100: #fceba9;
+  --warning-200: #f9d652;
+  --warning-300: #a48306;
+
+  // Error
+  --error: #ef4444;
+  --error-100: #fac1c1;
+  --error-200: #f48282;
+  --error-300: #c41111;
+
+  // Radius
+  --radius-xs: 2px;
+  --radius-s: 4px;
+  --radius-sm: 8px;
+  --radius-m: 14px;
+  --radius-ml: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 40px;
+  --radius-round: 999px;
+
+  --margin-base: 16px;
+  --margin-xxs: 2px;
+  --margin-xs: 4px;
+  --margin-s: 6px;
+  --margin-sm: 10px;
+  --margin-m: 14px;
+  --margin-16: 16px;
+  --margin-ml: 20px;
+  --margin-l: 28px;
+  --margin-xl: 40px;
+
+  --padding-base: 16px;
+  --padding-xxs: 2px;
+  --padding-xs: 4px;
+  --padding-s: 6px;
+  --padding-sm: 10px;
+  --padding-m: 14px;
+  --padding-16: 16px;
+  --padding-ml: 20px;
+  --padding-l: 28px;
+  --padding-xl: 40px;
+
+  --font-10: 10px;
+  --font-12: 12px;
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-24: 24px;
+  --font-28: 28px;
+  --font-32: 32px;
+  --font-40: 40px;
+  --font-44: 44px;
+  --font-48: 48px;
+  --font-56: 56px;
+  --font-64: 64px;
+  --font-96: 96px;
+  --font-144: 144px;
+
+  --gap-xs: 4px;
+
+  --box-shadow-sm: 0px 1px 1px 0px rgba(165, 163, 174, 0.3);
+
+  --drop-shadow-sm: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+}
+
+$primary: var(--primary);
+$primary-100: var(--primary-100);
+$primary-200: var(--primary-200);
+$primary-300: var(--primary-300);
+$primary-400: var(--primary-400);
+$primary-500: var(--primary-500);
+$primary-600: var(--primary-600);
+$primary-700: var(--primary-700);
+$primary-800: var(--primary-800);
+$primary-900: var(--primary-900);
+$primary-1000: var(--primary-1000);
+
+$secondary: var(--secondary);
+$secondary-100: var(--secondary-100);
+$secondary-200: var(--secondary-200);
+$secondary-300: var(--secondary-300);
+$secondary-400: var(--secondary-400);
+$secondary-500: var(--secondary-500);
+$secondary-600: var(--secondary-600);
+$secondary-700: var(--secondary-700);
+$secondary-800: var(--secondary-800);
+$secondary-900: var(--secondary-900);
+$secondary-1000: var(--secondary-1000);
+
+$white: var(--white);
+$base-white: var(--base-white);
+$neutrals-100: var(--neutrals-100);
+$neutrals-200: var(--neutrals-200);
+$neutrals-300: var(--neutrals-300);
+$neutrals-400: var(--neutrals-400);
+$neutrals-500: var(--neutrals-500);
+$neutrals-600: var(--neutrals-600);
+$neutrals-700: var(--neutrals-700);
+$neutrals-800: var(--neutrals-800);
+$neutrals-900: var(--neutrals-900);
+$neutrals-1000: var(--neutrals-1000);
+$base-black: var(--base-black);
+$black: var(--black);
+
+$success: var(--success);
+$success-100: var(--success-100);
+$success-200: var(--success-200);
+$success-300: var(--success-300);
+
+$warning: var(--warning);
+$warning-100: var(--warning-100);
+$warning-200: var(--warning-200);
+$warning-300: var(--warning-300);
+
+$error: var(--error);
+$error-100: var(--error-100);
+$error-200: var(--error-200);
+$error-300: var(--error-300);
+
+$radius-xs: var(--radius-xs);
+$radius-s: var(--radius-s);
+$radius-sm: var(--radius-sm);
+$radius-m: var(--radius-m);
+$radius-ml: var(--radius-ml);
+$radius-lg: var(--radius-lg);
+$radius-xl: var(--radius-xl);
+$radius-round: var(--radius-round);
+
+$margin-base: var(--margin-base);
+$margin-xxs: var(--margin-xxs);
+$margin-xs: var(--margin-xs);
+$margin-s: var(--margin-s);
+$margin-sm: var(--margin-sm);
+$margin-m: var(--margin-m);
+$margin-ml: var(--margin-ml);
+$margin-l: var(--margin-l);
+$margin-xl: var(--margin-xl);
+$margin-16: var(--margin-16);
+
+$padding-base: var(--padding-base);
+$padding-xxs: var(--padding-xxs);
+$padding-xs: var(--padding-xs);
+$padding-s: var(--padding-s);
+$padding-sm: var(--padding-sm);
+$padding-m: var(--padding-m);
+$padding-ml: var(--padding-ml);
+$padding-l: var(--padding-l);
+$padding-xl: var(--padding-xl);
+$padding-16: var(--padding-16);
+
+$font-10: var(--font-10);
+$font-12: var(--font-12);
+$font-14: var(--font-14);
+$font-16: var(--font-16);
+$font-18: var(--font-18);
+$font-20: var(--font-20);
+$font-24: var(--font-24);
+$font-28: var(--font-28);
+$font-32: var(--font-32);
+$font-40: var(--font-40);
+$font-44: var(--font-44);
+$font-48: var(--font-48);
+$font-56: var(--font-56);
+$font-64: var(--font-64);
+$font-96: var(--font-96);
+$font-144: var(--font-144);

@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Name",
+    "value": "firstName",
+    "order": "ASC"
+  },
+  {
+    "label": "Email",
+    "value": "email",
+    "order": "ASC"
+  },
+  {
+    "label": "Created",
+    "value": "createdAt",
+    "order": "ASC"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "Name",
+    "value": "product_title"
+  },
+  {
+    "label": "Created",
+    "value": "created"
+  },
+  {
+    "label": "Latest",
+    "value": "latest"
+  }
+]

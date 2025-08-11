@@ -1,0 +1,11 @@
+{
+  "token": {
+    "colorPrimary": "#051e41",
+    "colorInfo": "#051e41",
+    "colorError": "#ff181a",
+    "fontSize": 14,
+    "sizeStep": 4,
+    "borderRadius": 5,
+    "wireframe": true
+  }
+}

@@ -1,0 +1,52 @@
+@use '../_variables' as vars;
+
+.ant-picker-suffix {
+  color: vars.$neutrals-700 !important;
+}
+
+.color_picker_container {
+  width: 190px;
+  border: 1px solid vars.$neutrals-200;
+  padding: 6px;
+  border-radius: 4px;
+  .react-colorful {
+    height: 174px;
+    width: 173px;
+  }
+  .react-colorful__saturation {
+    border-radius: 4px;
+  }
+  .react-colorful__saturation-pointer {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+  .react-colorful__hue {
+    height: 10px;
+    // width: 138px;
+    border-radius: 4px;
+    margin: 5px 0 0 0;
+  }
+  .react-colorful__hue-pointer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+  .react-colorful__alpha {
+    height: 10px;
+    // width: 138px;
+    border-radius: 4px;
+    margin: 5px 0;
+  }
+  .react-colorful__alpha-pointer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+  .font_size_sm {
+    font-size: 10px !important;
+  }
+}

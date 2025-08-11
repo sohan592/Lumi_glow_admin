@@ -1,0 +1,27 @@
+@use '../_variables' as *;
+
+.header_right_side {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.private-layout-header {
+  border-bottom: 2px solid $neutrals-100;
+  position: 'sticky'; // Make it sticky
+  top: 0; // Stick to the top
+  z-index: 1; // Ensure it's above other content
+}
+
+.logo {
+  max-width: 133px;
+  height: auto;
+}
+
+.breadcrumb_header {
+  margin-bottom: $margin-sm;
+  .page_header_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $primary-1000;
+  }
+}

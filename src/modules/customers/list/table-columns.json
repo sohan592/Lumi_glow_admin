@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Id",
+    "dataIndex": "id"
+  },
+  {
+    "title": "First Name",
+    "dataIndex": "firstName"
+  },
+  {
+    "title": "Last Name",
+    "dataIndex": "lastName"
+  },
+  {
+    "title": "EMAIL",
+    "dataIndex": "email"
+  }
+]

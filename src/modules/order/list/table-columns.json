@@ -1,0 +1,32 @@
+[
+  {
+    "title": "INVOICE NO",
+    "dataIndex": "id",
+    "width": 100
+  },
+
+  {
+    "title": "CUSTOMER NAME",
+    "dataIndex": "name",
+    "width": 200
+  },
+  {
+    "title": "METHOD",
+    "dataIndex": "paymentMethod"
+  },
+  {
+    "title": "AMOUNT",
+    "dataIndex": "price",
+    "width": 100
+  },
+  {
+    "title": "PHONE NUMBER",
+    "dataIndex": "phone",
+    "width": 200
+  },
+  {
+    "title": "ADDRESS",
+    "dataIndex": "address",
+    "width": 250
+  }
+]

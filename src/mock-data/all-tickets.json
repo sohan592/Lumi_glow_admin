@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "message": "Issue with login",
+    "createdAt": "2023-10-01T10:00:00Z",
+    "status": "open",
+    "adminNote": "Investigating the issue"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "message": "Unable to reset password",
+    "createdAt": "2023-10-02T11:00:00Z",
+    "status": "open",
+    "adminNote": "User not found in the database"
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "message": "Page not loading",
+    "createdAt": "2023-10-03T12:00:00Z",
+    "status": "open",
+    "adminNote": "Issue with the server"
+  },
+  {
+    "id": "4",
+    "name": "Bob Brown",
+    "email": "bob.brown@example.com",
+    "message": "Error 404 on dashboard",
+    "createdAt": "2023-10-04T13:00:00Z",
+    "status": "rejected",
+    "adminNote": "Page not found"
+  },
+  {
+    "id": "5",
+    "name": "Charlie Davis",
+    "email": "charlie.davis@example.com",
+    "message": "Cannot update profile",
+    "createdAt": "2023-10-05T14:00:00Z",
+    "status": "closed",
+    "adminNote": "User profile updated successfully"
+  },
+  {
+    "id": "6",
+    "name": "Diana Evans",
+    "email": "diana.evans@example.com",
+    "message": "Payment gateway issue",
+    "createdAt": "2023-10-06T15:00:00Z",
+    "status": "open",
+    "adminNote": "Payment successful"
+  },
+  {
+    "id": "7",
+    "name": "Ethan Harris",
+    "email": "ethan.harris@example.com",
+    "message": "Subscription not activated",
+    "createdAt": "2023-10-07T16:00:00Z",
+    "status": "open",
+    "adminNote": "Subscription activated successfully"
+  },
+  {
+    "id": "8",
+    "name": "Fiona Green",
+    "email": "fiona.green@example.com",
+    "message": "App crashing frequently",
+    "createdAt": "2023-10-08T17:00:00Z",
+    "status": "open",
+    "adminNote": "Issue resolved"
+  },
+  {
+    "id": "9",
+    "name": "George Hill",
+    "email": "george.hill@example.com",
+    "message": "Unable to download report",
+    "createdAt": "2023-10-09T18:00:00Z",
+    "status": "closed",
+    "adminNote": "Report downloaded successfully"
+  },
+  {
+    "id": "10",
+    "name": "Hannah King",
+    "email": "hannah.king@example.com",
+    "message": "Notification settings not saving",
+    "createdAt": "2023-10-10T19:00:00Z",
+    "status": "open",
+    "adminNote": "Settings saved successfully"
+  }
+]

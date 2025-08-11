@@ -1,0 +1,13 @@
+.ant-dropdown {
+  .ant-dropdown-menu {
+    border: 1px solid var(--neutrals-100);
+    box-shadow: var(--box-shadow-sm);
+    filter: var(--drop-shadow-sm);
+  }
+}
+
+div.table-action-more {
+  li.ant-dropdown-menu-item {
+    padding: 0 !important;
+  }
+}

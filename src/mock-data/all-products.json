@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Premium T-Shirt",
+    "sku": "SKU001",
+    "barcode": "123456789001",
+    "category": "Men",
+    "price": 300000,
+    "saleprice": 270000,
+    "stock": 50,
+    "status": "active"
+  },
+  {
+    "id": "2",
+    "name": "Himalaya Powder",
+    "sku": "SKU002",
+    "barcode": "123456789002",
+    "category": "Skin Care",
+    "price": 1256000,
+    "saleprice": 1100000,
+    "stock": 30,
+    "status": "active"
+  },
+  {
+    "id": "3",
+    "name": "Green Leaf Lettuce",
+    "sku": "SKU003",
+    "barcode": "123456789003",
+    "category": "Fresh Vegetable",
+    "price": 120000,
+    "saleprice": 100000,
+    "stock": 100,
+    "status": "inactive"
+  },
+  {
+    "id": "10",
+    "name": "Rainbow Chard",
+    "sku": "SKU004",
+    "barcode": "123456789004",
+    "category": "Fresh Vegetablething",
+    "price": 500000,
+    "saleprice": 450000,
+    "stock": 20,
+    "status": "active"
+  },
+  {
+    "id": "11",
+    "name": "Clementine",
+    "sku": "SKU005",
+    "barcode": "123456789005",
+    "category": "Appliances",
+    "price": 750000,
+    "saleprice": 700000,
+    "stock": 15,
+    "status": "active"
+  },
+  {
+    "id": "12",
+    "name": "Alice Johnson",
+    "sku": "SKU006",
+    "barcode": "123456789006",
+    "category": "Fresh Fruits",
+    "price": 900000,
+    "saleprice": 850000,
+    "stock": 25,
+    "status": "active"
+  },
+  {
+    "id": "13",
+    "name": "Kale Sprouts",
+    "sku": "SKU007",
+    "barcode": "123456789007",
+    "category": "Fresh Vegetable",
+    "price": 1200000,
+    "saleprice": 1150000,
+    "stock": 10,
+    "status": "active"
+  }
+]

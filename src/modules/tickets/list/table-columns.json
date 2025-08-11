@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Id",
+    "dataIndex": "id"
+  },
+  {
+    "title": "NAME",
+    "dataIndex": "name"
+  },
+  {
+    "title": "EMAIL",
+    "dataIndex": "email"
+  },
+  {
+    "title": "MESSAGE",
+    "dataIndex": "message"
+  },
+  {
+    "title": "SUBMITTED",
+    "dataIndex": "createdAt"
+  },
+  {
+    "title": "ADMIN NOTE",
+    "dataIndex": "adminNote"
+  }
+]

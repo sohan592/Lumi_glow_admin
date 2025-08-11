@@ -1,0 +1,14 @@
+/* Sass variables and mixins */
+@use '_variables.scss';
+@use '_mixins.scss';
+@use 'global.scss';
+@use 'layout/index.scss';
+@use 'globalBaseClasses.scss';
+@use 'variable_classes.scss';
+@use 'form/index.scss' as form;
+@use 'table/index.scss' as table;
+@use 'dropdown/index.scss' as dropdown;
+@use '../modules/auth/auth-style.scss';
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');

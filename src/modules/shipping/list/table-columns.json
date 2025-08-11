@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Id",
+    "dataIndex": "id"
+  },
+
+  {
+    "title": "Display Name",
+    "dataIndex": "displayName"
+  },
+
+  {
+    "title": "Charge",
+    "dataIndex": "charge"
+  }
+]

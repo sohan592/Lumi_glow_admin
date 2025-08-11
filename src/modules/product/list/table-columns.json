@@ -1,0 +1,22 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "width": "5%"
+  },
+  {
+    "title": "PRODUCT NAME",
+    "dataIndex": "name",
+    "width": "10%"
+  },
+  {
+    "title": "PRICE",
+    "dataIndex": "price",
+    "width": "10%"
+  },
+  {
+    "title": "SALE PRICE",
+    "dataIndex": "price",
+    "width": "10%"
+  }
+]

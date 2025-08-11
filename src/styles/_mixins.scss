@@ -1,0 +1,11 @@
+// @mixin font-style($d-size, $m-size: null, $weight: 400) {
+//   font-size: $d-size;
+//   line-height: 120%;
+//   font-weight: $weight;
+
+//   @if $m-size {
+//     @media screen and (max-width: $mobile) {
+//       font-size: $m-size;
+//     }
+//   }
+// }

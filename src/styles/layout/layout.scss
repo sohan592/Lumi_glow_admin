@@ -1,0 +1,40 @@
+@use '../_variables' as *;
+
+.side_nav {
+  background-color: $base-white;
+  height: 100vh;
+  border-right: 2px solid $white;
+  .menu-icon {
+    padding: $padding-16;
+    cursor: pointer;
+  }
+
+  .sideber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $margin-sm 0;
+    a {
+      padding: $padding-m 0;
+      margin-bottom: $margin-sm;
+      .sideber-icon {
+        color: $primary-1000;
+        padding: 10px 20px 6px 20px;
+      }
+      p {
+        font-size: $font-12;
+        text-align: center;
+        color: $primary-1000;
+      }
+    }
+    a:hover {
+      background-color: $neutrals-100;
+      border-radius: $radius-s;
+    }
+  }
+}
+
+.active_nav {
+  background-color: $neutrals-100;
+  border-radius: $radius-s;
+}
